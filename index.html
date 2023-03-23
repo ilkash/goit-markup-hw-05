@@ -316,18 +316,29 @@
       <div class="modal-form-group">
         <label for="name" class="title-input">name</label>
         <span class="input-wrap"><input type="text" name="name" id="name">
-        <svg class="inputicon" wihgt="18" height="24">
+        <svg class="inputicon" width="18" height="24">
           <use href="./images/symbol-defs.svg#icon-person"></use>
         </svg>
         </span>
       </div>
       <div class="modal-form-group">
         <label for="email" class="title-input">email</label>
-        <input type="email" name="email" id="email">
+         <span class="input-wrap"><input type="email" name="email" id="email">
+        <svg class="inputicon" width="18" height="24">
+          <use href="./images/symbol-defs.svg#icon-email"></use>
+        </svg>
+        </span>
+        
       </div>
       <div class="modal-form-group">
         <label for="phone" class="title-input">phone</label>
-        <input type="tel" name="phone" id="phone" >
+         <span class="input-wrap"> <input type="tel" name="phone" id="phone" >
+        <svg class="inputicon" width="18" height="24">
+          <use href="./images/symbol-defs.svg#icon-phone"></use>
+        </svg>
+        </span>
+        
+       
       </div>
       <div class="modal-form-group">
         <label for="comment" class="title-input">comment</label>
@@ -335,7 +346,18 @@
 <textarea name="comment" id="comment" cols="10" rows="10">
   
 </textarea>
-      
+</div>
+    
+        <div class="checkbox-wrapper">
+            <input type="checkbox" id="checkbox" class="checkbox visually-hidden">
+      <label for="checkbox" class="checkbox-label">
+        <span class="custom-checkbox">
+          <svg class="custom-checkbox-icon" width="10" height="8">
+            <use href="./images/symbol-defs.svg#icon-hal"></use>
+          </svg>
+        </span>I accept the terms and conditions of the 
+      </label>
+      <a>Privacy Policy</a>
       </div>
       <button type="submit" class="modal-button">
         send
