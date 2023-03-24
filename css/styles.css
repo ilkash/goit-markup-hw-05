@@ -600,9 +600,10 @@ ul {
 }
 
 .modal {
+  box-sizing: border-box;
   max-width: 100%;
   width: 408px;
-  height: 576px;
+  height: 584px;
   max-height: 100vh;
   overflow: auto;
   background-color: rgba(252, 252, 252, 1);
@@ -653,6 +654,10 @@ ul {
 
 .title-input {
   margin-bottom: 4px;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #8e8f99;
 }
 .input-wrap {
   position: relative;
@@ -692,12 +697,12 @@ ul {
 .custom-checkbox-icon {
   fill: currentColor;
   display: flex;
+}
+.checkbox-label > .custom-checkbox {
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
-
 .checkbox:checked + .checkbox-label > .custom-checkbox {
   color: brown;
   background-color: aqua;
@@ -709,4 +714,21 @@ ul {
   height: 16px;
   width: 16px;
   color: transparent;
+}
+textarea {
+  resize: none;
+}
+.bth-modal {
+  min-width: 169px;
+  position: absolute;
+  left: 119px;
+}
+.title-form {
+  font-family: "Roboto";
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  text-align: center;
 }
